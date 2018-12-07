@@ -3,7 +3,7 @@ extern crate nom;
 
 mod parser;
 
-use parser::{nom_parse};
+pub use parser::{nom_parse};
 
 fn parse() {
     // TODO
